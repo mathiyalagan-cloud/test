@@ -14,7 +14,7 @@ spec:
         app: mynginx
     spec:
       containers:
-      - name: nodejs-app
+      - name: nginx-app
         image: mathi784/my-app:latest
         imagePullPolicy: Always
         ports:
